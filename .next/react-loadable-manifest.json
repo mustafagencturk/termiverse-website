@@ -1,0 +1,23 @@
+{
+  "about.jsx -> @/src/components/Counter": {
+    "id": 4339,
+    "files": [
+      "static/chunks/655-bb2aac274d40e85a.js",
+      "static/chunks/339.2f753909ba2ae2a8.js"
+    ]
+  },
+  "index.jsx -> @/src/components/Counter": {
+    "id": 4339,
+    "files": [
+      "static/chunks/655-bb2aac274d40e85a.js",
+      "static/chunks/339.2f753909ba2ae2a8.js"
+    ]
+  },
+  "index1-onepage.jsx -> @/src/components/Counter": {
+    "id": 4339,
+    "files": [
+      "static/chunks/655-bb2aac274d40e85a.js",
+      "static/chunks/339.2f753909ba2ae2a8.js"
+    ]
+  }
+}
