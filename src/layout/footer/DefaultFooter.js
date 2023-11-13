@@ -29,10 +29,10 @@ const DefaultFooter = () => {
                   <i className="fab fa-twitter" /> <span>Twitter</span>
                 </a>
                 <a href="#">
-                  <i className="fab fa-dribbble" /> <span>Dribbble</span>
+                  <i className="fab fa-linkedin " /> <span>Linkedin</span>
                 </a>
                 <a href="#">
-                  <i className="fab fa-behance" /> <span>Behance</span>
+                  <i className="fab fa-instagram" /> <span>Instagram</span>
                 </a>
               </div>
             </div>
@@ -44,22 +44,22 @@ const DefaultFooter = () => {
               <div className="lets-work mb-50 wow fadeInUp delay-0-2s animated">
                 <img
                   src="assets/images/footer/lets-work.png"
-                  alt="Let's Work Man"
+                  alt="We Trust: Crafting Visions of Tomorrow, Shared Values"
                 />
-                <span>Let’s Work Together</span>
+                <span>We Trust: Crafting Visions of Tomorrow, Shared Values</span>
               </div>
               <div className="footer-contact-info wow fadeInUp delay-0-3s animated">
                 <a
                   className="theme-btn style-three"
-                  href="mailto:support@gmail.com"
+                  href="mailto:hello@termiverse.com"
                 >
-                  support@gmail.com <i className="far fa-arrow-right" />
+                  hello@termiverse.com <i className="far fa-arrow-right" />
                 </a>
                 <a
                   className="theme-btn style-three phone-number"
-                  href="callto:+000(123)45688"
+                  href="callto:"
                 >
-                  +000 (123) 456 88 <i className="far fa-arrow-right" />
+                  <i className="far fa-arrow-right" />
                 </a>
               </div>
             </div>
@@ -72,55 +72,23 @@ const DefaultFooter = () => {
               <div className="footer-widget widget_nav_menu">
                 <ul className="list-style-two wow fadeInUp delay-0-3s animated">
                   <li>
-                    <Link legacyBehavior href="about">
+                    <Link legacyBehavior href="#">
                       Home
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="services">
-                      Popular Services
+                    <Link legacyBehavior href="#">
+                      Services
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="team">
-                      Team Member
+                    <Link legacyBehavior href="https://terminaldao.xyz/">
+                      Terminal Artists Space
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="blog">
-                      Latest News
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="contact">
+                    <Link legacyBehavior href="#">
                       Contact Us?
-                    </Link>
-                  </li>
-                </ul>
-                <ul className="list-style-two wow fadeInUp delay-0-4s animated">
-                  <li>
-                    <Link legacyBehavior href="index">
-                      UI/UX Design
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="index2">
-                      Development
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="index3">
-                      Marketing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="contact">
-                      Need a Career
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="faqs">
-                      Faqs ?
                     </Link>
                   </li>
                 </ul>
@@ -131,37 +99,13 @@ const DefaultFooter = () => {
         <div className="footer-bottom">
           <div className="row align-items-center">
             <div className="col-xl-8 col-lg-6">
-              <div className="footer-bottom-menu pt-40 pb-35 rpb-0 wow fadeInRight delay-0-2s animated">
-                <ul>
-                  <li>
-                    <Link legacyBehavior href="/about">
-                      <a>About</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="services">
-                      Services
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="/faqs">
-                      <a>FAQs</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="services">
-                      How IT Works
-                    </Link>
-                  </li>
-                </ul>
-              </div>
             </div>
             <div className="col-xl-4 col-lg-6">
               <div className="copyright-text text-lg-end pt-40 pb-35 rpt-10 wow fadeInLeft delay-0-2s animated">
                 <p>
                   Copyright @2023,{" "}
                   <Link legacyBehavior href="/">
-                    <a>Ygency</a>
+                    <a>Termiverse</a>
                   </Link>{" "}
                   All Rights Reserved
                 </p>

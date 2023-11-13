@@ -33,17 +33,17 @@ const IndexSingle = () => {
           <div className="hero-bottom-image">
             <img src="assets/images/hero/bg-12.jpg" alt="impact us" />
             <div className="hero-social">
-              <a href="#">
+              <a href="https://www.facebook.com/termiverse">
                 <i className="fab fa-facebook-f" /> <span>Facebook</span>
               </a>
               <a href="#">
                 <i className="fab fa-twitter" /> <span>Twitter</span>
               </a>
-              <a href="#">
+              <a href="https://twitter.com/termiverse">
                 <i className="fab fa-instagram" /> <span>Instagram</span>
               </a>
-              <a href="#">
-                <i className="fab fa-youtube" /> <span>Youtube</span>
+              <a href="https://instagram.com/termiverse">
+                <i className="fab fa-linkedin" /> <span>Lınkedin</span>
               </a>
             </div>
           </div>
@@ -196,15 +196,15 @@ const IndexSingle = () => {
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInUp delay-0-4s">
                 <i className="fal fa-check-circle" />
-                <Counter end={35} />
-                <span className="counter-title">Professionals Community Member</span>
+                <Counter end={95} />
+                <span className="counter-title">Community Members</span>
               </div>
             </div>
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInUp delay-0-5s">
                 <i className="fal fa-check-circle" />
-                <Counter end={710} />
-                <span className="counter-title">Days</span>
+                <Counter end={3} />
+                <span className="counter-title">Years</span>
               </div>
             </div>
           </div>
@@ -231,7 +231,7 @@ const IndexSingle = () => {
                 <div className="title-icon">
                   <h5>
                     <Link legacyBehavior href="/service-details">
-                      <a>Web Design From Figma</a>
+                      <a>Web Design From Figmasss</a>
                     </Link>
                   </h5>
                   <img src="assets/images/services/icon1.png" alt="Icon" />
