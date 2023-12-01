@@ -36,7 +36,7 @@ const IndexSingle = () => {
               <a href="https://www.facebook.com/termiverse">
                 <i className="fab fa-facebook-f" /> <span>Facebook</span>
               </a>
-              <a href="#">
+              <a href="https://twitter.com/termiverse">
                 <i className="fab fa-twitter" /> <span>Twitter</span>
               </a>
               <a href="https://twitter.com/termiverse">
@@ -200,13 +200,6 @@ const IndexSingle = () => {
                 <span className="counter-title">Community Members</span>
               </div>
             </div>
-            <div className="col-xl-2 col-lg-3 col-6">
-              <div className="counter-item counter-text-wrap wow fadeInUp delay-0-5s">
-                <i className="fal fa-check-circle" />
-                <Counter end={3} />
-                <span className="counter-title">Years</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -225,20 +218,20 @@ const IndexSingle = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row justify-content-center">
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="service-three-item wow fadeInUp delay-0-2s">
                 <div className="title-icon">
                   <h5>
-                    <Link legacyBehavior href="/service-details">
-                      <a>Web Design From Figmasss</a>
+                    <Link legacyBehavior href="#">
+                      <a>Web3 and Web2 Services</a>
                     </Link>
                   </h5>
                   <img src="assets/images/services/icon1.png" alt="Icon" />
                 </div>
                 <div className="content">
-                  <p>We denounce with righteous indignation dislike beguile</p>
-                  <Link legacyBehavior href="/service-details">
+                  <p>Web3 and Web2 Services Whether you're diving into the decentralized world of Web3 or optimizing your Web2 presence</p>
+                  <Link legacyBehavior href="#">
                     <a className="read-more style-two">
                       <span>Read More</span>{" "}
                       <i className="far fa-arrow-right" />
@@ -251,15 +244,15 @@ const IndexSingle = () => {
               <div className="service-three-item wow fadeInDown delay-0-2s">
                 <div className="title-icon">
                   <h5>
-                    <Link legacyBehavior href="/service-details">
-                      <a>PSD, Figma, XD to HTML Convert</a>
+                    <Link legacyBehavior href="#">
+                      <a>Digital Transformation</a>
                     </Link>
                   </h5>
                   <img src="assets/images/services/icon2.png" alt="Icon" />
                 </div>
                 <div className="content">
-                  <p>At vero eos et accusamus et dignissim ducimbl ditiis</p>
-                  <Link legacyBehavior href="/service-details">
+                  <p>Navigate the digital landscape seamlessly with our expertise in digital transformation.</p>
+                  <Link legacyBehavior href="#">
                     <a className="read-more style-two">
                       <span>Read More</span>{" "}
                       <i className="far fa-arrow-right" />
@@ -268,48 +261,7 @@ const IndexSingle = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="service-three-item wow fadeInUp delay-0-2s">
-                <div className="title-icon">
-                  <h5>
-                    <Link legacyBehavior href="/service-details">
-                      <a>WordPress Development</a>
-                    </Link>
-                  </h5>
-                  <img src="assets/images/services/icon3.png" alt="Icon" />
-                </div>
-                <div className="content">
-                  <p>To take trivial example which ever undertakes laborious</p>
-                  <Link legacyBehavior href="/service-details">
-                    <a className="read-more style-two">
-                      <span>Read More</span>{" "}
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="service-three-item wow fadeInDown delay-0-2s">
-                <div className="title-icon">
-                  <h5>
-                    <Link legacyBehavior href="/service-details">
-                      <a>React Development</a>
-                    </Link>
-                  </h5>
-                  <img src="assets/images/services/icon4.png" alt="Icon" />
-                </div>
-                <div className="content">
-                  <p>Sed persiciatis unde omnisey natus error voluptatem</p>
-                  <Link legacyBehavior href="/service-details">
-                    <a className="read-more style-two">
-                      <span>Read More</span>{" "}
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
@@ -329,14 +281,107 @@ const IndexSingle = () => {
       
       {/* Project Timeline Area end */}
       {/* Team Area start */}
-      <section id="team" className="hero-area pt-185 rpt-150 rel z-1">
-        <div className="container-fluid">
-          <div className="hero-bottom-image">
-            <img src="assets/images/hero/bg-team.png" alt="impact us" />
+      <section className="team-area pt-70 rpt-40">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="section-title text-center mb-55 wow fadeInUp delay-0-2s">
+                <span className="sub-title mb-20">Team Members</span>
+                <h2>Meet Our Professionals Team</h2>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="hero-bg">
-          <img src="assets/images/hero/hero-bg.png" alt="lines" />
+        <div className="container-fluid">
+          <div className="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+            <div className="col">
+              <div className="team-member wow fadeInUp delay-0-2s">
+                <div className="image">
+                  <img src="assets/images/team/member1.png" alt="Team Member" />
+                </div>
+                <div className="content">
+                  <h4>Begüm J. Bitir</h4>
+                  <span>Executive Director</span>
+                  <Link legacyBehavior href="/team-details">
+                    <a className="read-more">
+                      <i className="far fa-arrow-right" />
+                    </a>
+                  </Link>
+                </div>
+                <div className="btn-social">
+                  <div className="social-style-two">
+                    <a href="#">
+                      <i className="fab fa-facebook-f" />
+                    </a>
+                    <a href="https://twitter.com/begumbitir">
+                      <i className="fab fa-twitter" />
+                    </a>
+                    <a href="https://www.instagram.com/begumbitir/">
+                      <i className="fab fa-instagram" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/begumbitir999/">
+                      <i className="fab fa-linkedin-in" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="team-member wow fadeInUp delay-0-3s">
+                <div className="image">
+                  <img src="assets/images/team/member2.png" alt="Team Member" />
+                </div>
+                <div className="content">
+                  <h4>Ali Pura</h4>
+                  <span>Advisory Board</span>
+                  <Link legacyBehavior href="/team-details">
+                    <a className="read-more">
+                      <i className="far fa-arrow-right" />
+                    </a>
+                  </Link>
+                </div>
+                <div className="btn-social">
+                  <div className="social-style-two">
+                    <a href="#">
+                      <i className="fab fa-facebook-f" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-twitter" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-instagram" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-linkedin-in" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="team-member wow fadeInUp delay-0-4s">
+                <div className="image">
+                  <img src="assets/images/team/member3.png" alt="Team Member" />
+                </div>
+                <div className="content">
+                  <h4>Mustafa Gençtürk</h4>
+                  <span>Investor Relations</span>
+                  <Link legacyBehavior href="/team-details">
+                    <a className="read-more">
+                      <i className="far fa-arrow-right" />
+                    </a>
+                  </Link>
+                </div>
+                <div className="btn-social">
+                  <div className="social-style-two">
+                    <a href="https://www.linkedin.com/in/mustafagen%C3%A7t%C3%BCrk/">
+                      <i className="fab fa-linkedin-in" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       {/* Team Area end */}

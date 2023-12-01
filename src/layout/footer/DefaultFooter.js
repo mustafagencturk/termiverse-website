@@ -22,16 +22,16 @@ const DefaultFooter = () => {
             </div>
             <div className="col-lg-8 text-lg-end">
               <div className="social-style-four mb-20 wow fadeInLeft delay-0-2s animated">
-                <a href="#">
-                  <i className="fab fa-facebook-f" /> <span>Facebook</span>
+                <a href="https://www.spatial.io/s/Terminal-Artists-Space-6559cd54ab8a9bf0322931de?share=6423529152317593020">
+                  <i className="spatial" /> <span>Spatial</span>
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/termiverse">
                   <i className="fab fa-twitter" /> <span>Twitter</span>
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/company/termiverse/mycompany/?viewAsMember=true">
                   <i className="fab fa-linkedin " /> <span>Linkedin</span>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/termiverse/">
                   <i className="fab fa-instagram" /> <span>Instagram</span>
                 </a>
               </div>
