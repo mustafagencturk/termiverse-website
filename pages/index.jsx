@@ -39,10 +39,10 @@ const IndexSingle = () => {
               <a href="https://twitter.com/termiverse">
                 <i className="fab fa-twitter" /> <span>Twitter</span>
               </a>
-              <a href="https://twitter.com/termiverse">
+              <a href="https://instagram.com/termiverse">
                 <i className="fab fa-instagram" /> <span>Instagram</span>
               </a>
-              <a href="https://instagram.com/termiverse">
+              <a href="https://www.linkedin.com/company/termiverse/">
                 <i className="fab fa-linkedin" /> <span>Lınkedin</span>
               </a>
             </div>
@@ -60,7 +60,7 @@ const IndexSingle = () => {
             <div className="col-xl-5 col-lg-3">
               <div className="about-image rmb-45 wow fadeInUp delay-0-2s">
                 <img
-                  src="assets/images/about/circle-text.svg"
+                  src="assets/images/about/circle-text-3.png"
                   alt="Circle Text"
                 />
               </div>
@@ -77,11 +77,6 @@ const IndexSingle = () => {
                   <p>
                   We are a community-driven powerhouse incubated by TerminalDAO, specializing in the entire production spectrum with a distinct focus on culture, sustainability, and exponential technologies. Our multifaceted services encompass Marketing, Digital Transformation, Exponential Technologies Implementation, Web3 and Web2 services, Creative Strategies, Production for Technical and Empowering Needs, and Investment & Start-up Mentorship.
                   </p>
-                  <Link legacyBehavior href="/about">
-                    <a className="read-more mt-10">
-                      Read More <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -119,12 +114,6 @@ const IndexSingle = () => {
                     <p>
                     Embrace the future with confidence as we lead the way in implementing cutting-edge technologies. From artificial intelligence to blockchain, our team ensures that your business stays at the forefront of innovation.
                     </p>
-                    <Link legacyBehavior href="/service-details">
-                      <a className="read-more style-two">
-                        <span>Read More</span>{" "}
-                        <i className="far fa-arrow-right" />
-                      </a>
-                    </Link>
                   </div>
                 </div>
                 <div className="what-we-do-item wow fadeInUp delay-0-5s">
@@ -136,12 +125,6 @@ const IndexSingle = () => {
                     <p>
                     Navigate the digital landscape seamlessly with our expertise in digital transformation. We guide organizations through the evolution process, ensuring they remain agile, efficient, and ready for the challenges of tomorrow.
                     </p>
-                    <Link legacyBehavior href="/service-details">
-                      <a className="read-more style-two">
-                        <span>Read More</span>{" "}
-                        <i className="far fa-arrow-right" />
-                      </a>
-                    </Link>
                   </div>
                 </div>
                 <div className="what-we-do-item wow fadeInUp delay-0-7s">
@@ -153,12 +136,6 @@ const IndexSingle = () => {
                     <p>
                     Whether you're diving into the decentralized world of Web3 or optimizing your Web2 presence, Termiverse has the tools and knowledge to elevate your online footprint.
                     </p>
-                    <Link legacyBehavior href="/service-details">
-                      <a className="read-more style-two">
-                        <span>Read More</span>{" "}
-                        <i className="far fa-arrow-right" />
-                      </a>
-                    </Link>
                   </div>
                 </div>
               </div>
@@ -231,12 +208,6 @@ const IndexSingle = () => {
                 </div>
                 <div className="content">
                   <p>Web3 and Web2 Services Whether you're diving into the decentralized world of Web3 or optimizing your Web2 presence</p>
-                  <Link legacyBehavior href="#">
-                    <a className="read-more style-two">
-                      <span>Read More</span>{" "}
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -252,12 +223,6 @@ const IndexSingle = () => {
                 </div>
                 <div className="content">
                   <p>Navigate the digital landscape seamlessly with our expertise in digital transformation.</p>
-                  <Link legacyBehavior href="#">
-                    <a className="read-more style-two">
-                      <span>Read More</span>{" "}
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -278,16 +243,29 @@ const IndexSingle = () => {
       </div>
       {/* Headline Area end */}
       {/* Project Timeline Area start */}
-      
+      <section className="team-area pt-70 rpt-40">
+        <div className="container">
+          <div className="row justify-content-center"></div>
+              <div className="col-lg-12">
+                <div className="section-title text-center mb-55 wow fadeInUp delay-0-2s">
+                    <img
+                      src="assets/images/footer/lets-work.png"
+                      alt="We Trust: Crafting Visions of Tomorrow, Shared Values"
+                    />
+                    <h2>We Trust: Crafting Visions of Tomorrow, Shared Values</h2>
+                  </div>
+              </div>
+            </div>
+        </section>
       {/* Project Timeline Area end */}
       {/* Team Area start */}
       <section className="team-area pt-70 rpt-40">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
-              <div className="section-title text-center mb-55 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-20">Team Members</span>
-                <h2>Meet Our Professionals Team</h2>
+              <div className="section-title2 text-center mb-55 wow fadeInUp delay-0-2s">
+                <span className="sub-title2 mb-20">Team Leads</span>
+                
               </div>
             </div>
           </div>
@@ -302,23 +280,9 @@ const IndexSingle = () => {
                 <div className="content">
                   <h4>Begüm J. Bitir</h4>
                   <span>Executive Director</span>
-                  <Link legacyBehavior href="/team-details">
-                    <a className="read-more">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
                 <div className="btn-social">
                   <div className="social-style-two">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="https://twitter.com/begumbitir">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="https://www.instagram.com/begumbitir/">
-                      <i className="fab fa-instagram" />
-                    </a>
                     <a href="https://www.linkedin.com/in/begumbitir999/">
                       <i className="fab fa-linkedin-in" />
                     </a>
@@ -334,23 +298,9 @@ const IndexSingle = () => {
                 <div className="content">
                   <h4>Ali Pura</h4>
                   <span>Advisory Board</span>
-                  <Link legacyBehavior href="/team-details">
-                    <a className="read-more">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
                 <div className="btn-social">
                   <div className="social-style-two">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
                     <a href="#">
                       <i className="fab fa-linkedin-in" />
                     </a>
@@ -366,11 +316,6 @@ const IndexSingle = () => {
                 <div className="content">
                   <h4>Mustafa Gençtürk</h4>
                   <span>Investor Relations</span>
-                  <Link legacyBehavior href="/team-details">
-                    <a className="read-more">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
                 <div className="btn-social">
                   <div className="social-style-two">

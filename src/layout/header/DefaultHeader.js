@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Nav from "./Nav";
-import NavSearch from "./NavSearch";
 
 const DefaultHeader = ({ singleMenu }) => {
   return (
@@ -28,15 +27,10 @@ const DefaultHeader = ({ singleMenu }) => {
               {/* Main Menu End*/}
             </div>
             {/* Nav Search */}
-            <NavSearch />
+           
             {/* Menu Button */}
             <div className="menu-btns">
               {/* menu sidbar */}
-              <div className="menu-sidebar">
-                <button>
-                  <img src="assets/images/icons/toggler.svg" alt="Toggler" />
-                </button>
-              </div>
             </div>
           </div>
         </div>
