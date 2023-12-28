@@ -25,7 +25,7 @@ const Footer3 = () => {
                 <a href="https://www.facebook.com/termiverse">Facebook</a>
                 <a href="https://twitter.com/termiverse">Twitter</a>
                 <a href="https://instagram.com/termiverse">Instagram</a>
-                <a href="https://www.linkedin.com/company/termiverse/">Lınkedin</a>
+                <a href="https://www.linkedin.com/company/termiverse/">LinkedIn</a>
               </div>
             </div>
           </div>

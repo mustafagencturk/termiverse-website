@@ -75,8 +75,7 @@ const IndexSingle = () => {
                 </div>
                 <div className="content">
                   <p>
-                  We are a community-driven powerhouse incubated by TerminalDAO, specializing in the entire production spectrum with a distinct focus on culture, sustainability, and exponential technologies. Our multifaceted services encompass Marketing, Digital Transformation, Exponential Technologies Implementation, Web3 and Web2 services, Creative Strategies, Production for Technical and Empowering Needs, and Investment & Start-up Mentorship.
-                  </p>
+                  We are a community-driven powerhouse incubated by TerminalDAO, specializing in the entire production spectrum with a distinct focus on culture, sustainability, and exponential technologies. Our multifaceted services encompass  Digital Transformation, Strategic Consultancy, Implementation of Exponential Technologies, Creative Production & Strategies, Investment & Start-up Mentorship.                  </p>
                 </div>
               </div>
             </div>
@@ -102,18 +101,17 @@ const IndexSingle = () => {
             <div className="col-xl-5 col-lg-8">
               <div className="what-we-do-content mb-55">
                 <div className="section-title mb-60 wow fadeInUp delay-0-2s">
-                  <span className="sub-title mb-15">Community-Driven Delivery</span>
-                  <h2>Latest Way to Get Creative and Innovative Solutions </h2>
+                  <span className="sub-title mb-15">Community-Driven Methods</span>
+                  <h2>Terminal Community-Supported Scopes</h2>
                 </div>
                 <div className="what-we-do-item wow fadeInUp delay-0-3s">
                   <div className="number">
                     <span>01</span>
                   </div>
                   <div className="content">
-                    <h5>Exponential Technologies Implementation</h5>
+                    <h5>Digital Tranformation and Sustainable Innovation</h5>
                     <p>
-                    Embrace the future with confidence as we lead the way in implementing cutting-edge technologies. From artificial intelligence to blockchain, our team ensures that your business stays at the forefront of innovation.
-                    </p>
+                    Termiverse provides digitally creative & technical community support for our partners to establish a presence in the world of innovation. We know how to maximize benefits for your production way with the power of digital transformation and sustainable innovation.</p>
                   </div>
                 </div>
                 <div className="what-we-do-item wow fadeInUp delay-0-5s">
@@ -121,10 +119,9 @@ const IndexSingle = () => {
                     <span>02</span>
                   </div>
                   <div className="content">
-                    <h5>Digital Transformation</h5>
+                    <h5>Terminal's Business Playbooks</h5>
                     <p>
-                    Navigate the digital landscape seamlessly with our expertise in digital transformation. We guide organizations through the evolution process, ensuring they remain agile, efficient, and ready for the challenges of tomorrow.
-                    </p>
+                    Let's decide the future together by analysing your needs before implementing cutting-edge technologies. Before implementing new technologies our community research your needs and develop your business playbook to create better future for everyone. </p>
                   </div>
                 </div>
                 <div className="what-we-do-item wow fadeInUp delay-0-7s">
@@ -132,10 +129,9 @@ const IndexSingle = () => {
                     <span>03</span>
                   </div>
                   <div className="content">
-                    <h5>Web3 and Web2 Services</h5>
+                    <h5>We Are WebXR Artists Community with Different Expertises</h5>
                     <p>
-                    Whether you're diving into the decentralized world of Web3 or optimizing your Web2 presence, Termiverse has the tools and knowledge to elevate your online footprint.
-                    </p>
+                    At Termiverse, we design virtual worlds, cultural roadmaps, and even machines! We provide scanning services, XR implementation for your products and provide holographic display solutions to exhibit digital twin of your products physically.</p>
                   </div>
                 </div>
               </div>
@@ -159,7 +155,7 @@ const IndexSingle = () => {
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInUp delay-0-2s">
                 <i className="fal fa-check-circle" />
-                <Counter end={2} />
+                <Counter end={3} />
                 <span className="counter-title">Years Of Experience</span>
               </div>
             </div>
@@ -182,54 +178,6 @@ const IndexSingle = () => {
       </div>
       {/* Statistics Area end */}
       {/* Service Style Three start */}
-      <section
-        id="services"
-        className="service-three-area pt-70 rpt-40 rel z-1"
-      >
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-7">
-              <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-20">Termiverse Services</span>
-                <h2>We Provide Amazing Innovate Solutions</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="service-three-item wow fadeInUp delay-0-2s">
-                <div className="title-icon">
-                  <h5>
-                    <Link legacyBehavior href="#">
-                      <a>Web3 and Web2 Services</a>
-                    </Link>
-                  </h5>
-                  <img src="assets/images/services/icon1.png" alt="Icon" />
-                </div>
-                <div className="content">
-                  <p>Web3 and Web2 Services Whether you're diving into the decentralized world of Web3 or optimizing your Web2 presence</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="service-three-item wow fadeInDown delay-0-2s">
-                <div className="title-icon">
-                  <h5>
-                    <Link legacyBehavior href="#">
-                      <a>Digital Transformation</a>
-                    </Link>
-                  </h5>
-                  <img src="assets/images/services/icon2.png" alt="Icon" />
-                </div>
-                <div className="content">
-                  <p>Navigate the digital landscape seamlessly with our expertise in digital transformation.</p>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-      </section>
       {/* Service Style Three end */}
       {/* Headline area start */}
       <div className="headline-area pt-65 rpt-60 rel z-1">
@@ -252,7 +200,7 @@ const IndexSingle = () => {
                       src="assets/images/footer/lets-work.png"
                       alt="We Trust: Crafting Visions of Tomorrow, Shared Values"
                     />
-                    <h2>We Trust: Crafting Visions of Tomorrow, Shared Values</h2>
+                    <h2>In Common Values We Trust: Visions for Tomorrow</h2>
                   </div>
               </div>
             </div>
@@ -296,12 +244,12 @@ const IndexSingle = () => {
                   <img src="assets/images/team/member2.png" alt="Team Member" />
                 </div>
                 <div className="content">
-                  <h4>Ali Pura</h4>
-                  <span>Advisory Board</span>
+                  <h4>Aylin Taslak</h4>
+                  <span>Head of WebXR & Metaverse</span>
                 </div>
                 <div className="btn-social">
                   <div className="social-style-two">
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/aylin-taslak-a7985523a/">
                       <i className="fab fa-linkedin-in" />
                     </a>
                   </div>
